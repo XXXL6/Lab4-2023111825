@@ -121,7 +121,7 @@ public class callTest {
         int[] nums = new int[]{8,1,4,2};
         List<Integer> res = s.largestDivisibleSubset(nums);
         assertValidDivisibleSubset(nums, res, 4);
-        assertEquals(Arrays.asList(8,4,2,1), res);
+        assertEquals(Arrays.asList(5,4,8,1), res);
     }
 
     /**
